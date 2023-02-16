@@ -1,21 +1,17 @@
-Flask Website Assignment Pt 1: Link (Replit): https://replit.com/@theawilliams19/CS-Social-Justice-Warriors-Website-with-Flask
-By: Ashley Ufret & Théa Williams
+* Instructions: If you're using repl.it (the recommended method), make your site on repl.it, make sure it's public and add the repl.it repl link to the
+README.org file in the flask folder of your repo. In either case, list all routes you've created in the README.org file. (Assigned 2/9/23)
 
-* Instructions: If using replit add (public) link and routes to ReadMe file in flask folder
+2/15/23 
+By: Ashley Ufret & Théa Williams
+Flask Website Assignment Pt 1: Link (Replit): https://replit.com/@theawilliams19/CS-Social-Justice-Warriors-Website-with-Flask
 
 routes:
 app.route('/') def index():
-
 @app.route('/about')
-
 @app.route('/plhistory')
-
 @app.route('/news')
-  
 @app.route('/upcoming')
-
 @app.route('/contactus')
-
 @app.route('/challenge') *Random Number for Advocacy Challenge
   
 ** If you are presenting this unit: No
