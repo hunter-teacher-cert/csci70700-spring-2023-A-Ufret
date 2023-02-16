@@ -1,33 +1,22 @@
-By: Ashley Ufret & Théa Williams
 Flask Website Assignment Pt 1: Link (Replit): https://replit.com/@theawilliams19/CS-Social-Justice-Warriors-Website-with-Flask
 By: Ashley Ufret & Théa Williams
 
 * Instructions: If using replit add (public) link and routes to ReadMe file in flask folder
 
 routes:
-app.route('/')
-def index():
-  return render_template("index.html")
+app.route('/') def index():
 
 @app.route('/about')
-def about():
-  return render_template("about.html")
 
 @app.route('/plhistory')
-def plhistory():
-  return render_template("plhistory.html")
 
 @app.route('/news')
-def news(): 
-  return render_template("news.html")
   
 @app.route('/upcoming')
-def upcoming():  
-  return render_template("upcoming.html")
 
 @app.route('/contactus')
-def contactus():  
-  return render_template("contactus.html")
+
+@app.route('/challenge') *Random Number for Advocacy Challenge
   
 ** If you are presenting this unit: No
 
