@@ -1,3 +1,29 @@
+Ashley Ufret
+
+Encryption Non-pke Howework
+
+Part 1: Decoding a Message using a shift (Caesar) cipher
+https://replit.com/@A-Ufret/DecryptionHW#main.py
+
+Part 2: Encoding a Message
+Encryption with custom Substitution Cypher
+  1. Write a secret message to encode
+  2. Set a custom key for the alphabet string
+  3. Def(encrypt) set index values = char so that it looks for the index value of each character in the message in the 'alphabet' string
+  4. Join indexkey for indexkey in values so that it returns the value of each character of the message that is in the same index of the key
+  5. Def(decrypt) start with  indexValues = [key.index(char) for char in encryptedText] so that it looks for the index of each character of the encrypted message in      the key
+  6. Return join(alphabet[indexKey] for index key in index values so it replaces each character of the encrypted message with the character from the 'alphabet string'    whose index matches with the5.
+  7. encryptedtext = encrypt() to store the encrypted message
+  8. Print "" encrypted text so that it prints the encrypted message 
+  9. Last you can print the decrypted message to confirm it is working correctly 
+  10. Example of what the code would look like https://replit.com/@A-Ufret/EncryptionHW#Encrytion.py
+
+
+
+
+
+
+
 * Instructions
 
 ** If you are presenting this unit:
